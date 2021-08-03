@@ -1,3 +1,8 @@
+
+/*MY CSS*/
+
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -65,8 +70,28 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
   }
+
+  .row featurette {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .featurette-heading {
+    margin-left: 5%;
+  }
   
+  .lead {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   
+  .btn-group {
+    z-index: 1000;
+  }
+
+.featurette-image {
+  margin-left: 5%;
+}
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -88,4 +113,7 @@ body {
       margin-top: 7rem;
     }
   }
+  
+
+  /* PAGE 1 CSS */
   
